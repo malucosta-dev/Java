@@ -3,14 +3,14 @@ package Classes_Objetos_POO;
 public class Caneta {
 
     //Atributos (variaveis)
-    String modelo;
+    public String modelo;
     String cor;
     float ponta;
     int carga;
     boolean tampada;
 
     //metodos
-    void status(){
+    public void status(){
         System.out.println("Caneta "+ this.modelo + " da cor "+ this.cor);
         System.out.println("Ponta: " + this.ponta);
         System.out.println("Carga: " + this.carga);
