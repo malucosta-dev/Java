@@ -10,7 +10,7 @@ public class Main {
         c1.cor = "Rosa";
         //c1.ponta = 0.5f;
         //c1.tampada = false;
-        c1.tampar();
+        c1.tampar(); //Ao acessar tampar ou destampar, torno o status de "tampada" possivel de acessar
         c1.carga = 67;
         c1.status();
         c1.rabiscar();
